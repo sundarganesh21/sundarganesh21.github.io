@@ -1,5 +1,3 @@
-# Hi, I'm Sundar Ganesh
-
 I'm a quantitative developer interested in trading strategies, financial modeling, and applied machine learning.
 
 - PhD Mathematics
