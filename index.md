@@ -11,4 +11,4 @@ I'm a quantitative developer interested in trading strategies, financial modelin
 - [LinkedIn](https://linkedin.com/in/sganesh21)
 
 ### Quantitative Research and Analysis Projects
-- [FX Trading with Mean Reversion Algorithms](./projects/project1_fx_mean_rv.md)
+- [FX Trading with Mean Reversion Algorithms](./projects/project1_fx_mean_rev.md)
