@@ -1,14 +1,9 @@
-I'm a quantitative developer interested in trading strategies, financial modeling, and applied machine learning.
+I'm a quantitative strategist interested in quant research, trading strategies, financial modeling, and applied machine learning. Check out my [LinkedIn](https://linkedin.com/in/sganesh21) page for my professional background.
 
-- PhD Mathematics
-- MSc Computational Sciences
-- MSc Physics and BE Mechanical Engineering
-- Currently: Core Strategist at Deutsche Bank (London)
-
-### Links
-
-- [GitHub](https://github.com/sundarganesh21)
-- [LinkedIn](https://linkedin.com/in/sganesh21)
+### Education:
+- Ph.D.Mathematics, École polytechnique fédérale de Lausanne, Switzerland
+- M.Sc Simulation Sciences, Rheinisch-Westfälische Technische Hochschule, Germany
+- M.Sc Physics and B.E Mechanical Engineering, Birla Institute of Technology and Science, Goa
 
 ### Quantitative Research and Analysis Projects
 - [FX Trading with Mean Reversion Algorithms](./projects/project1_fx_mean_rev.md)
