@@ -25,12 +25,19 @@ Now that we know the signal is mean-reverting, we wish to know how quickly it me
 ### Moving averages
 To use this signal for trading, we deploy a moving-average algorithm. Although the ADF test tells us that the signal reverts to a static mean value, this mean value may in practice change over time, albeit more slowly than the signal itself. To accommodate for this, we use a moving-average window rather than a fixed average value. 
 
-The rationale behind the algorithm is quite straightforward. If the exchange rate is abnormally high, then GBP is doing "too" well against EUR. We buy GBP/sell EUR, since a reversion to the mean is about to happen. Once the exchange rate returns to its mean value, we can then sell the GBP that we bought when the exchange rate was high, exiting the trade and realizing our profits. Vice versa for when the exchange rate drops to an abnormally low level.
+The rationale behind the algorithm is quite straightforward. If the exchange rate is abnormally high, then GBP is doing "too" well against EUR. We buy GBP/sell EUR, since a reversion to the mean is about to happen. Once the exchange rate returns to its mean value, we can then sell the GBP that we bought when the exchange rate was high, exiting the trade and realizing our profits. Vice versa for when the exchange rate drops to an abnormally low level. 
 
-$$Z = \frac{(X-\mu)}{\sigma}$$
+We then need to decide two aspects of the algorithm - the 'when' and the 'how much'.
 
-We need to decide two aspects of the algorithm - the "when" and the "how much".
+### The 'When'
 
-### The "when"
+We use a Z-score to compute how far the exchange rate is from its mean value as follows: Z-score = (exchange rate - moving average )/(moving standard deviation). When the Z-score exceeds a certain enter-value, we initiate the buy or sell. When the Z-score drops below a certain exit-value, we "close" our position. 
 
-We implement a moving Z-score algorithm. 
+An important note here is that with FX, there is no notion of "asset" that you buy/sell using cash. Hence, there is often a necessity to treat one currency as the base currency and the other currency as the "asset" currency. When you hear "exit" in these contexts, it usually means that we buy/sell until we return the balance of our base currency to the value that it was when we entered the position.
+
+For testing, we propose an enter-value of 1.5 and an exit value of 0.5. In practice, these are parameters that can be optimized using hyperparameter optimization.
+
+### The 'How Much'
+Right, so we've defined when to enter and exit the position. The next question is - how much do we trade each time we get a signal to trade? There are multiple ways to do this. The first and most simple way is to trade the same fixed amount whenever we get an enter or exit signal. The second way is to trade an amount proportional to the Z-score. This way, the larger the departure is from the average value, the more you are willing to stake on the trade. We'll stick to the first algorithm in this project.
+
+## Backtesting and Performance Analysis
