@@ -44,7 +44,7 @@ Firstly, let's plot the signal over its moving average plus and minus the critic
 
 Then, let's look at the portfolio performance over the entire time period. The performance looks great! At first glance, we're looking at annualized returns of around 28.8%. However, we all know that returns is not the full picture. The strategy also produces a Sharpe ratio of around 1.8, which is often satisfactory for trading. 
 
-## 4. Disclaimers and Drawbacks
-This entire analysis is fully academic, and is riddled with reasons not to use it. 
-
 ![portfolio vs time](../assets/images/project1/portfolio_vs_time.png)
+
+## 4. Disclaimers and Drawbacks
+This entire analysis is fully academic, and is riddled with reasons not to use it. I'm testing on the same data that I used for training. 
