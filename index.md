@@ -1,3 +1,5 @@
+### About Me
+
 I'm a quantitative strategist interested in quant research, trading strategies, financial modeling, and applied machine learning. Check out my [LinkedIn](https://linkedin.com/in/sganesh21) page for my professional background.
 
 ### Education:
