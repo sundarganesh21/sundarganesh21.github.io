@@ -27,6 +27,8 @@ To use this signal for trading, we deploy a moving-average algorithm. Although t
 
 The rationale behind the algorithm is quite straightforward. If the exchange rate is abnormally high, then GBP is doing "too" well against EUR. We buy GBP/sell EUR, since a reversion to the mean is about to happen. Once the exchange rate returns to its mean value, we can then sell the GBP that we bought when the exchange rate was high, exiting the trade and realizing our profits. Vice versa for when the exchange rate drops to an abnormally low level.
 
+$$Z = \frac{(X-\mu)}{\sigma}$$
+
 We need to decide two aspects of the algorithm - the "when" and the "how much".
 
 ### The "when"
