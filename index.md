@@ -8,5 +8,5 @@ I'm a quantitative strategist interested in quant research, trading strategies, 
 - M.Sc Physics and B.E Mechanical Engineering, Birla Institute of Technology and Science - Goa Campus, India
 
 ### Quantitative Research and Analysis Projects
-- [Project 1](./projects/project1_fx_mean_rev.md): FX Trading 1 - Mean Reversion Algorithms
+- [Project 1](./projects/project1_fx_mean_rev.md): FX Trading Part 1 - Mean Reversion Algorithms
 - [Project 2](./projects/project1_fx_mean_rev_part2.md): FX Trading Part 2 - Improvements and Fine Tuning
