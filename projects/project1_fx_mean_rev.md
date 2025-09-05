@@ -8,4 +8,4 @@ In this mini-project, we look into mean-reversion algorithms for FX trading. For
 ## Research Question
 The first question we aim to answer is the following - is the signal mean-reverting over any particular time window? If yes, what is the half-life of its mean-reversion? We want to know not just when/whether the signal reverts, but also how quickly it reverts. We work primarily with the EUR-GBP exchange rate in this analysis. We first want to test this on historical data, so let's pull up the last 20 years of EUR-GBP data at a frequency of 1 day. 
 
-![Historical EUR-GBP Exchange Rate](./assets/images/project1/exchange_rate_all_time.png)
+![Historical EUR-GBP Exchange Rate](../assets/images/project1/exchange_rate_all_time.png)
