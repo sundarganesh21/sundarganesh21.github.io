@@ -39,4 +39,4 @@ Right, so we've defined when to buy and sell. The next question is - how much do
 ## Backtesting and Performance Analysis
 We use the data from 2016 to 2019 to test this trading algorithm. We begin with 100 units of EUR and 100 units of GBP. We trade 5 units of EUR whenever a buy or sell signal is triggered. The total value of the portfolio is computed in EUR - so it is the EUR balance plus the GBP balance converted using whatever the exchange rate is at that time stamp.
 
-At first glance, the portfolio does well over 
+Firstly, let's plot the signal over its moving average plus and minus its 
