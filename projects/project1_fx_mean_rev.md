@@ -47,4 +47,7 @@ Then, let's look at the portfolio performance over the entire time period. The p
 ![portfolio vs time](../assets/images/project1/portfolio_vs_time.png)
 
 ## 4. Disclaimers and Drawbacks
-This entire analysis is fully academic, and is riddled with reasons not to use it. I'm testing on the same data that I used for training. 
+This entire analysis is fully academic, and is riddled with reasons not to use it. Apart from the cardinal sin of machine learning, which is to use training data for testing, there are several improvements that we can make to this strategy that will be demonstrated in a follow-up article:
+- Using exponentially weighted moving averages rather than simple moving averages, giving recent samples a higher weight than older samples
+- Weighing the position according to Z-score, rather than trading a flat amount whenever a buy or sell signal is triggered
+- Extension to multiple FX signals using cointegration approaches
