@@ -9,4 +9,4 @@ I'm a quantitative strategist interested in quant research, trading strategies, 
 
 ### Quantitative Research and Analysis Projects
 - [Project 1](./projects/project1_fx_mean_rev.md): FX Trading Part 1 - Mean Reversion Algorithms
-- [Project 2](./projects/project1_fx_mean_rev_part2.md): FX Trading Part 2 - Improvements and Fine Tuning
+- [Project 2](./projects/project2_fx_mean_rev_part2.md): FX Trading Part 2 - Improvements and Fine Tuning
