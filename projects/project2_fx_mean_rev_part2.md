@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: plain
 ---
 
 The Jupyter notebook for this project can be found [here](https://github.com/sundarganesh21/quantfin/tree/main/project2_fx_mean_reversion_part2).
