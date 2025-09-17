@@ -16,4 +16,4 @@ The simple moving average that we've used in Part 1 used equal weights for all p
 
 $$\mu_{i} = \frac{1}{W} \left[ x_i + \alpha x_{i-1} + \alpha^2 x_{i-2} + ... + \alpha^n x_{i-n} \right]$$
 
-where  $W &\coloneqq \sum_{j=0}^n \alpha^j$. It's important that for any moving average, the weights must sum up to 1 in order to maintain the unbiased nature of the estimator; hence the leading $1/W$ factor. Let's compute the exponential moving average and compare it to the simple moving average.
+where  $W \coloneqq \sum_{j=0}^n \alpha^j$. It's important that for any moving average, the weights must sum up to 1 in order to maintain the unbiased nature of the estimator; hence the leading $1/W$ factor. Let's compute the exponential moving average and compare it to the simple moving average.
